@@ -11,11 +11,11 @@ export const TodoApp = () => {
     return (
         <>  
             <h1 className="d-flex justify-content-center align-items-center">ToDo App</h1>
-            <h3 ><small>Tareas: {todosCount} | Pendientes: {pendingTodosCount}</small></h3>
+            <h3 ><small>Tareas: {todosCount} | Completadas: {pendingTodosCount}</small></h3>
             <hr />
-            <h6 style={{ opacity: '0.5' }} className="mb-3">Crea tu lista de tareas</h6>
-            <div className="row justify-content-center align-items-center">
-                <div className="col-md-8">
+            <h5 style={{ opacity: '0.5' }} className="mb-3">Crea tu lista de tareas</h5>
+            <div className="row ">
+                <div className="col-8">
 
                 <TodoList 
                 todos={todos} 
@@ -25,7 +25,7 @@ export const TodoApp = () => {
  
                 </div>
 
-                <div className="col-md-4">
+                <div className="col-4">
                     <h4>Agregar Tarea</h4>
                     <hr />
 

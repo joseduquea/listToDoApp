@@ -3,8 +3,7 @@ body {
     background-color: #21232a;
     color: #f0f8ff;
     padding: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 15%;
+    width: 70%;
 }
 
